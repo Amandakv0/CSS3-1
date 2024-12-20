@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #07081A;
+}
+.headerMainFrame{
+    border-bottom: 1px solid #261C51;
+    width: 100%;
+    padding: 14px 200px;
+    margin-bottom: 88px;
+}
+.firstMainFlexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileIconDiv {
+    height: fit-content;
+    align-self: baseline;
+}
+
+#headerImg{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#headerImgText{
+    vertical-align: middle;
+}
+.navBarMainContentDiv{
+    display: flex;
+    gap: 16px;
+}
+#home{
+    display: inline-block;
+    color: #B968DE;
+    font-size: 16px;
+}
+.navBarContent{
+    display: inline-block;
+    color: #FFF;
+    font-size: 16px;
+}
+
+
+.mainContentDiv{
+    width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerDiv{
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 88px;
+}
+h1{
+    color: #FFF;
+    font-size: 48px;
+
+    font-weight: 800;
+}
+.parag{
+    color: #C0C0C0;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.downloadButton{
+    border-radius: 8px;
+    background: #9100D3;
+    padding: 12px 24px;
+    border: none;
+}
+.navBarContent{
+    text-decoration-line: none;
+}
+.logosFrame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 80px;
+    margin-bottom: 88px;
+}
+.cardsFrame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 65px;
+    margin-bottom: 84px;
+}
+.cardsFrameAll{
+    width: 304px;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+    padding: 16px 24px;
+    text-align: left;
+}
+h3{
+    width: 236px;
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.footerMainBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerLogosDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+}
+.footermainDiv{
+    border-top: 1px solid #261C51;
+    padding: 20px 200px;
+}
+
+
